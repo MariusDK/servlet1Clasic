@@ -33,7 +33,7 @@ public class Adunare extends javax.servlet.http.HttpServlet {
         PrintWriter out = response.getWriter();
 
         out.println("<html><head><title>Suma</title></head><body>");
-        out.println("<form method=\"POST\" action=\"Adunare\">");
+        out.println("<form method=\"GET\" action=\"Adunare\">");
         out.println("Nr1:<input type=\"text\" name=\"unu\" value=\"" + a
                 + "\">");
         out.println("Nr2:<input type=\"text\" name=\"doi\" value=\"" + b

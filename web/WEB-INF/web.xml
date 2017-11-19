@@ -11,4 +11,12 @@
         <servlet-name>Adunare</servlet-name>
         <url-pattern>/Adunare</url-pattern>
     </servlet-mapping>
+    <servlet>
+        <servlet-name>ConvertLitere</servlet-name>
+        <servlet-class>p.ConvertLitere</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ConvertLitere</servlet-name>
+        <url-pattern>/ConvertLitere</url-pattern>
+    </servlet-mapping>
 </web-app>
